@@ -1,0 +1,14 @@
+{
+  "port": {
+    "name": "Broker Port",
+    "name_zh": "服务器端口",
+    "description": "OPCUA Server Port",
+    "description_zh": "OPCUA 服务器端口",
+    "attribute": "required",
+    "type": "string",
+    "default": "4840",
+    "valid": {
+      "length": 5
+    }
+  }
+}
